@@ -1,0 +1,82 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(19, 19, 61);
+}
+h1 {
+  width: 100%;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.game {
+  margin-top: 60px;
+  width: 60vmin;
+  height: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: beige;
+  border: 2px solid rgb(8, 8, 8);
+}
+.tile {
+  width: calc(100% / 9);
+  height: calc((100% / 9));
+  display: flex;
+  justify-content: center;
+  border: 1px solid rgb(133, 125, 125);
+  align-items: center;
+  font-size: 20px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+#puzzle {
+  width: 100px;
+  height: 100%;
+  padding: 14px;
+  margin-right: 20px;
+  color: rgb(241, 21, 21);
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: rgb(25, 25, 37);
+  cursor: pointer;
+}
+#solve {
+  width: 100px;
+  height: 100%;
+  padding: 14px;
+  margin-right: 20px;
+  color: rgb(50, 175, 55);
+  font-weight: bold;
+  border-radius: 20px;
+  background-color: rgb(25, 25, 37);
+  cursor: pointer;
+}
+.border-right {
+  border-right: 2px solid black;
+}
+.border-bottom {
+  border-bottom: 2px solid black;
+}
+.filled {
+  background-color: rgb(241, 241, 196);
+}
+.newElmt {
+  color: Red;
+  font-weight: bold;
+}
+.oldElmt {
+  color: rgb(16, 15, 15);
+}
